@@ -1,0 +1,66 @@
+# Arch Linux packages required for Odoo
+# Core system packages
+postgresql-libs
+
+# Fonts
+ttf-dejavu
+ttf-inconsolata
+ttf-font-awesome
+ttf-roboto
+gsfonts
+
+# JavaScript libraries
+# Note: libjs-underscore may need to be handled separately or via npm
+
+# Python packages (most should be installed via pip, but some system packages needed)
+python
+python-pip
+python-setuptools
+python-wheel
+python-build
+python-installer
+
+# Python dependencies (available in Arch repos)
+python-asn1crypto
+python-babel
+python-cbor2
+python-chardet
+python-cryptography
+python-dateutil
+python-docutils
+python-freezegun
+python-geoip
+python-geoip2
+python-gevent
+python-greenlet
+python-idna
+python-pillow
+python-jinja
+python-libsass
+python-lxml
+python-magic
+python-markupsafe
+python-num2words
+python-openpyxl
+python-passlib
+python-polib
+python-psutil
+python-psycopg2
+python-pyopenssl
+python-pypdf2
+python-qrcode
+python-reportlab
+python-requests
+python-stdnum
+python-pytz
+python-urllib3
+python-vobject
+python-werkzeug
+python-xlsxwriter
+python-xlrd
+python-zeep
+
+# AUR packages (need yay or another AUR helper)
+python-ofxparse
+python-rjsmin
+# python-lxml-html-clean is optional, only needed for lxml > 5.2
